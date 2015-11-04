@@ -19,8 +19,8 @@ public class Conexao {
         try {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
             String url = "";
-            url += "jdbc:mysql://127.0.0.1/sportfitness?";
-            url += "user=root&password=Heitor1231";
+            url += "jdbc:mysql://localhost:3306/sport_fitness";
+            url += "user=root&password=M@rc0sfelipe";
             con = (Connection) DriverManager.getConnection(url);
             System.out.println("Conexão aberta.");
         } catch (SQLException e) {

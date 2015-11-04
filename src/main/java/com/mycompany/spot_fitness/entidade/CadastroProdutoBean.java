@@ -10,12 +10,26 @@ package com.mycompany.spot_fitness.entidade;
  * @author heito
  */
 public class CadastroProdutoBean {
+    private int codigo;
     private String nome;
-    private String infoComplementar;
-    private double altura;
-    private double largura;
-    private double profundidade;
-    private double valor;
+    private String categoria;
+    private String descricao;
+    private String fabricante;
+    private String fornecedor;
+    private float altura;
+    private float largura;
+    private float profundidade;
+    private float valorCompra;
+    private float valorVenda;
+    private float lucro;
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
 
     public String getNome() {
         return nome;
@@ -25,45 +39,84 @@ public class CadastroProdutoBean {
         this.nome = nome;
     }
 
-    public String getInfoComplementar() {
-        return infoComplementar;
+    public String getCategoria() {
+        return categoria;
     }
 
-    public void setInfoComplementar(String infoComplementar) {
-        this.infoComplementar = infoComplementar;
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
 
-    public double getAltura() {
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
+    public String getFornecedor() {
+        return fornecedor;
+    }
+
+    public void setFornecedor(String fornecedor) {
+        this.fornecedor = fornecedor;
+    }
+
+    public float getAltura() {
         return altura;
     }
 
-    public void setAltura(double altura) {
+    public void setAltura(float altura) {
         this.altura = altura;
     }
 
-    public double getLargura() {
+    public float getLargura() {
         return largura;
     }
 
-    public void setLargura(double largura) {
+    public void setLargura(float largura) {
         this.largura = largura;
     }
 
-    public double getProfundidade() {
+    public float getProfundidade() {
         return profundidade;
     }
 
-    public void setProfundidade(double profundidade) {
+    public void setProfundidade(float profundidade) {
         this.profundidade = profundidade;
     }
 
-    public double getValor() {
-        return valor;
+    public float getValorCompra() {
+        return valorCompra;
     }
 
-    public void setValor(double valor) {
-        this.valor = valor;
+    public void setValorCompra(float valorCompra) {
+        this.valorCompra = valorCompra;
     }
 
-    
+    public float getValorVenda() {
+        return valorVenda;
+    }
+
+    public void setValorVenda(float valorVenda) {
+        this.valorVenda = valorVenda;
+    }
+
+    public float getLucro() {
+        return lucro;
+    }
+
+    public void setLucro(float lucro) {
+        this.lucro = lucro;
+    }
 }
+    
