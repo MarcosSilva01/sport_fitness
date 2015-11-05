@@ -22,22 +22,22 @@ and open the template in the editor.
                     <p class="financeiro"><b>Dados principais do produtos</b></p>
                     <div>
                         <label for="id">Código:</label>
-                        <input type="text" placeholder="Ex: 123456789"  id="id" name="id" size="15"/>
+                        <input type="text" placeholder="Ex: 123456789"  id="codigo" name="codigo" size="15"/>
                     </div>
                     <div>
                         <label for="nome">Nome:</label>
-                        <input type="text" placeholder="Ex: Dumbbell"  id="nome" name="name" size="70"/>
+                        <input type="text" placeholder="Ex: Dumbbell"  id="nome" name="nome" size="70"/>
                     </div>
                     <div>
                         <label for="categoria">Categoria:</label>
-                        <select name="categoria">
+                        <select name="categoria1">
                             <option>Acessórios</option>
                             <option>Pesos</option>
                             <option>Suportes</option>
                             <option>Acessórios</option>
                             <option>Outros</option>
                         </select>
-                        &nbsp;<input type="text" name="categoria1" size="47"/>
+                        &nbsp;<input type="text" name="categoria" id="categoria" size="47"/>
                     </div>
 
                     <div>
@@ -57,7 +57,7 @@ and open the template in the editor.
                     <div>
                         <label for="altura">Altura:</label>
                         <input type="text" placeholder="Ex: 250 cm"  id="altura" name="altura" size="6"/>
-                        <label for="altura">Largura:</label>
+                        <label for="largura">Largura:</label>
                         <input type="text" placeholder="Ex: 100 cm"  id="largura" name="largura" size="6"/>
                     </div>
                     <div>
@@ -73,11 +73,11 @@ and open the template in the editor.
                     </div>
                     <div>
                         <label for="valorVenda">Valor da venda: (R$)</label>
-                        <input type="text" id="valorCompra" name="valorCompra" size="8"/>
+                        <input type="text" id="valorVenda" name="valorVenda" size="8"/>
                     </div>
                     <div>
                         <label for="lucro">Lucro:</label>
-                        <input type="text" id="lucro" name="lucro" size="5" disabled=""/>
+                        <input type="text" id="lucro" name="lucro" size="5"/>
                     </div>
                     
                     <div class="botao_centro">

@@ -23,8 +23,7 @@ public class CadastroProdutoDAO extends Conexao {
 
     public boolean cadastro(CadastroProdutoBean cadastro) {
    
-        String sql = "insert into produtos(CODIGO,NOME,CATEGORIA,DESCRICAO,FABRICANTE,FORNECEDOR,"
-                + "ALTURA,LARGURA,PROFUNDIDADE,VALOR_COMPRA,VALOR_VENDA,LUCRO) value(?,?,?,?,?,?,?,?,?,?,?,?)";
+        String sql = "insert into produtos(CODIGO,NOME,CATEGORIA,DESCRICAO,FABRICANTE,FORNECEDOR,ALTURA,LARGURA,PROFUNDIDADE,VALOR_COMPRA,VALOR_VENDA,LUCRO) value(?,?,?,?,?,?,?,?,?,?,?,?)";
 
         try {
             con = conexao();
