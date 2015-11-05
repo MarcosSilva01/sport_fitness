@@ -10,7 +10,6 @@ package com.mycompany.spot_fitness.entidade;
  * @author heitor
  */
 public class CadastroProdutoBean {
-
     // dados principais
 
     private int codigo;
@@ -19,14 +18,14 @@ public class CadastroProdutoBean {
     private String infoComplementar;
     private String fabricante;
     private String fornecedor;
-    private double altura;
-    private double largura;
-    private double profundidade;
+    private float altura;
+    private float largura;
+    private float profundidade;
     // financeiro
-    private double valorCompra;
-    private double valorVenda;
-    private double lucro;
-    // 
+    private float valorCompra;
+    private float valorVenda;
+    private float lucro;
+    private String descricao;
 
     public int getCodigo() {
         return codigo;
@@ -76,52 +75,61 @@ public class CadastroProdutoBean {
         this.fornecedor = fornecedor;
     }
 
-    public double getAltura() {
+    public float getAltura() {
         return altura;
     }
 
-    public void setAltura(double altura) {
+    public void setAltura(float altura) {
         this.altura = altura;
     }
 
-    public double getLargura() {
+    public float getLargura() {
         return largura;
     }
 
-    public void setLargura(double largura) {
+    public void setLargura(float largura) {
         this.largura = largura;
     }
 
-    public double getProfundidade() {
+    public float getProfundidade() {
         return profundidade;
     }
 
-    public void setProfundidade(double profundidade) {
+    public void setProfundidade(float profundidade) {
         this.profundidade = profundidade;
     }
 
-    public double getValorCompra() {
+    public float getValorCompra() {
         return valorCompra;
     }
 
-    public void setValorCompra(double valorCompra) {
+    public void setValorCompra(float valorCompra) {
         this.valorCompra = valorCompra;
     }
 
-    public double getValorVenda() {
+    public float getValorVenda() {
         return valorVenda;
     }
 
-    public void setValorVenda(double valorVenda) {
+    public void setValorVenda(float valorVenda) {
         this.valorVenda = valorVenda;
     }
 
-    public double getLucro() {
+    public float getLucro() {
         return lucro;
     }
 
-    public void setLucro(double lucro) {
+    public void setLucro(float lucro) {
         this.lucro = lucro;
     }
 
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    
 }
